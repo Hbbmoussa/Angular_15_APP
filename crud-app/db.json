@@ -16,5 +16,18 @@
   "profile": {
     "name": "typicode"
   },
-  "employees": []
+  "employees": [
+    {
+      "firstname": "habibou",
+      "lastname": "moussa",
+      "email": "h@gmail.com",
+      "dateOfBirth": "2023-04-04T00:00:00.000Z",
+      "education": "Diploma",
+      "gender": "male",
+      "company": "g",
+      "experience": 3,
+      "package": "3",
+      "id": 1
+    }
+  ]
 }
