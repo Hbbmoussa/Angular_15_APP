@@ -42,28 +42,16 @@
       "id": 2
     },
     {
-      "firstname": "",
-      "lastname": "",
-      "email": "",
-      "dateOfBirth": "",
-      "education": "",
-      "gender": "",
-      "company": "",
-      "experience": "",
-      "package": "",
-      "id": 3
-    },
-    {
-      "firstname": "",
-      "lastname": "",
-      "email": "",
-      "dateOfBirth": "",
-      "education": "",
-      "gender": "",
-      "company": "",
-      "experience": "",
-      "package": "",
-      "id": 4
+      "firstname": "a",
+      "lastname": "a",
+      "email": "a@gmail.com",
+      "dateOfBirth": "2023-04-05T00:00:00.000Z",
+      "education": "Intermediate",
+      "gender": "other",
+      "company": "a",
+      "experience": 2,
+      "package": "3",
+      "id": 5
     }
   ]
 }
