@@ -52,6 +52,18 @@
       "experience": 2,
       "package": "3",
       "id": 5
+    },
+    {
+      "firstname": "c",
+      "lastname": "c",
+      "email": "c@gmail.com",
+      "dateOfBirth": "2023-04-19T00:00:00.000Z",
+      "education": "Graduate",
+      "gender": "male",
+      "company": "c",
+      "experience": 3,
+      "package": "3",
+      "id": 6
     }
   ]
 }

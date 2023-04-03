@@ -1,6 +1,6 @@
-import { DialogRef } from '@angular/cdk/dialog';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { MatDialogRef } from '@angular/material/dialog';
 import { EmployeeService } from '../services/employee.service';
 
 @Component({
@@ -23,7 +23,7 @@ export class EmployeeAddEditComponent {
   constructor(
     private _fb: FormBuilder,
     private _employeeService: EmployeeService,
-    private _dialogRef: DialogRef<EmployeeAddEditComponent>
+    private _dialogRef: MatDialogRef<EmployeeAddEditComponent>
   ) {
     this.employeForm = this._fb.group({
       firstname: '',
@@ -42,7 +42,7 @@ export class EmployeeAddEditComponent {
       this._employeeService.addEmployee(this.employeForm.value).subscribe({
         next: (val: any) => {
           alert('Employee added successfuly ! ');
-          this._dialogRef.close();
+          this._dialogRef.close(true);
         },
         error: (err: any) => {
           console.log(err);
